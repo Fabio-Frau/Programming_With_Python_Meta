@@ -38,3 +38,6 @@ first = "hello"
 second = "there"
 print(first + second)
 
+print("Where do you live?")
+location = input()
+print("So you live in " + location)
