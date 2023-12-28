@@ -3,10 +3,10 @@ with open("newfile.txt", mode = "w") as file:
 
 
 with open("newfile2.txt", mode = "w") as file:
-    file.writelines(["This is a secon text file", "This is another line"])
+    file.writelines(["This is a second text file", "This is another line"])
 
 with open("newfile3.txt", mode = "w") as file:
-    file.writelines(["This is a secon text file", "\nThis is another line"])
+    file.writelines(["This is a second text file", "\nThis is another line"])
 
 with open("newfile3.txt", mode = "a") as file:
     file.writelines(["\nAppending new line", "\nAppending new line"])
