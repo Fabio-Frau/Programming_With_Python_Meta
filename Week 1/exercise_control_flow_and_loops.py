@@ -38,6 +38,8 @@ for num in enumerate(num_list, start = 0):
     if (num[1] == 36):        
         print("Number found at position: " + str(num[0]))
 
+        
+
 #5
 count = 0
 
