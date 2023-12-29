@@ -4,10 +4,9 @@ class House:
     '''
     num_rooms = 5
     bathrooms = 2
-    def cost_evaluation(self):
-        print(self.num_rooms)
-        
-        # Functionality to calculate the costs from the area of the house
+    def cost_evaluation(self, rate):
+        cost = rate * self.num_rooms
+        return cost
     
 
 house = House()
